@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html lang="es" >
+
+    <!-- Begin Head -->
+
+    <head>
+
+        <!-- Basic -->
+
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Into English Mexico | Iniciar sesión </title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="AUTHOR" content="codegraphs@gmail.com">
+
+  <meta name="owner" content="Into English">
+
+  <meta name="REPLY-TO" content="google@intoenglish.com.mx">
+
+  <meta name="description" content="Contactanos en Into English Mexico, Inscribete a nuestros cursos totalmente en linea">
+
+  <meta name="KEYWORDS" content="contacto into english, ingles basico en linea, examen de ingles tkt, nivel de ingles, examen de ingles, test de ingles, ejercicios de ingles, estudiando ingles en linea, listening, speaking, reading, writing, programa ingles online, estudia ingles online, aprender ingles online, habilidad linguistica ingles, escuchar ingles, hablar en ingles, leer en ingles, escribir en ingles, certificate en ingles, cursos ingles en linea, cursos online de ingles, cursos en linea, resultados increibles, clases online, maestros de ingles capacitados, horarios flexibles, clases dinamicas en linea, costos accesibles, examen de ingles toeic, examen de ingles toefl, examen de ingles ielts, examen de ingles toefl ibt">
+
+  <meta name="canonical" content="http://intoenglish.com.mx/">
+
+  <meta name="geo.region" content="MX-MEX">
+
+  <meta name="geo.placename" content="Tlalnepantla">
+
+  <meta name="geo.position" content="19.547089;-99.216197">
+
+  <meta name="ICBM" content="19.547089, -99.216197">
+
+  <meta name="Resource-type" content="Document">
+
+  <meta name="Revisit-after" content="30 days">
+
+  <meta name="robots" content="ALL">
+
+  <meta name="distribution" content="global">
+
+  <meta name="rating" content="general">
+
+
+
+        <!-- Web Fonts -->
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+
+
+
+        <!-- Vendor Styles -->
+
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+
+        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
+
+        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+
+        <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+
+
+
+        <!-- Theme Styles -->
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
+
+        
+
+        <!-- Theme Skins -->
+
+        <link href="css/theme/red.css" rel="stylesheet" type="text/css"/>
+
+
+
+        <!-- Favicon -->
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+
+        <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
+
+        <link rel="icon" href="img/icon/favicon-96x96.png" type="image/x-icon">
+
+        <meta property="og:image" content="https://www.intoenglish.com.mx/img/inicio-sesion.jpg">
+
+        <link rel="image_src" href="https://www.intoenglish.com.mx/img/inicio-sesion.jpg"/>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+        <script type="text/javascript">
+
+            $( function() {
+                var prodId = getParameterByName('first');
+                var idborrar = getParameterByName('second');
+
+                if(prodId!=""){
+
+                    $.ajax({
+                            method: "POST",
+                            url: "servicios/servicios.php",
+                            data: {
+                                SSID: "validarUsuario",
+                                usuario_id: prodId,
+
+                            },
+                            success: function (response) {
+                                response = JSON.parse(response);
+                                console.log(response);
+
+                                if(response.status=="100"){
+
+                                   swal("Registro Terminado","Listo ya puedes iniciar sesión","success");
+                                }else{
+                                    swal("Registro No terminado ","No se pudo activar ","error");
+                                }
+                                
+                                    
+                                    
+                            },
+                            error: function (a) { 
+                                console.log(a );
+                             }
+                    });
+                    
+                }
+
+                if(idborrar!=""){
+
+                    $.ajax({
+                            method: "POST",
+                            url: "servicios/servicios.php",
+                            data: {
+                                SSID: "BorrarUsuario",
+                                usuario_id: idborrar
+
+                            },
+                            success: function (response) {
+                                response = JSON.parse(response);
+                                console.log(response);
+
+                                if(response.status=="100"){
+
+                                   swal("Registro Borrado","El usuario fue borrado Exitosamente","success");
+                                }else{
+                                    swal("Registro No Borrado ","No se pudo borrar  ","error");
+                                }
+                                
+                                    
+                                    
+                            },
+                            error: function (a) { 
+                                console.log(a );
+                             }
+                    });
+                    
+                }
+
+
+                $("#login").click(function(){ 
+
+                    if($("#correo").val()==""||$("#password").val()==""){
+                        swal("Atención","Ingresa un usuario y contraseña","warning");
+
+                    }else{
+
+                        $.ajax({
+                            method: "POST",
+                            url: "servicios/servicios.php",
+                            data: {
+                                SSID: "iniciarSesion",
+                                usuario_correo:$("#correo").val(),
+                                password:$("#password").val()
+
+                            },
+                            success: function (response) {
+                                response = JSON.parse(response);
+                                console.log(response);
+
+                                if(response.status=="100"){
+                                    
+                                   location = "https://www.intoenglish.com.mx/aula/virtual.php";
+                                }else{
+                                   swal("Atención",response.message,"error");
+
+                                }
+                                
+                                    
+                                    
+                            },
+                            error: function (a) { 
+                                console.log(a );
+                             }
+                    });
+
+
+                    }
+                })
+
+
+            });
+
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+                return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+            
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+          <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117511326-1"></script>
+
+        <script>
+
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag(){dataLayer.push(arguments);}
+
+          gtag('js', new Date());
+
+
+
+          gtag('config', 'UA-117511326-1');
+
+        </script>-->
+
+    </head>
+
+    <!-- End Head -->
+
+
+
+    <!-- Body -->
+
+    <body>
+
+        <div id="fb-root"></div>
+
+        <script>
+
+          window.fbAsyncInit = function() {
+
+            FB.init({
+
+              xfbml            : true,
+
+              version          : 'v3.2'
+
+            });
+
+          };
+
+
+
+          (function(d, s, id) {
+
+          var js, fjs = d.getElementsByTagName(s)[0];
+
+          if (d.getElementById(id)) return;
+
+          js = d.createElement(s); js.id = id;
+
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+
+          fjs.parentNode.insertBefore(js, fjs);
+
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+        <!-- Your customer chat code -->
+
+        <div class="fb-customerchat"
+
+          attribution=setup_tool
+
+          page_id="1822908031290781"
+
+          theme_color="#EB2226">
+
+        </div>
+
+
+
+   
+
+  
+
+
+
+         
+
+
+
+        <section class="s-google-map">
+
+            <div id="js__google-container" class="s-google-container g-height-0--xs"></div>
+
+        </section>
+
+
+
+        <div class="s-promo-block-v7 g-bg-position--center g-bg-color--dark-light" style="background: url('img/1920x1080/sesion.jpg') no-repeat;">
+
+            <div class="g-container--sm g-padding-y-80--xs g-padding-y-125--xsm">
+
+                <div class="g-text-center--xs g-margin-b-60--xs">
+
+                    <br><br>
+
+                    <img class="block-center" src="img/logointo.png" alt="Into English">
+
+                    <h2 class="text-uppercase g-font-size-22--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs"><br>INICIAR SESIÓN</h2>
+
+                </div>
+
+                <div class="center-block g-width-500--sm g-width-550--md">
+
+                    <div class="g-margin-b-30--xs">
+
+                        <input id="correo"  type="text" class="form-control s-form-v3__input login" placeholder="* Correo electronico">
+
+                    </div>
+
+                    <div class="row g-margin-b-50--xs">
+
+                        <div class="col-sm-12 g-margin-b-30--xs g-margin-b-0--md">
+
+                            <input id="password"  type="password" class="form-control s-form-v3__input login" placeholder="* Password">
+
+                        </div>
+
+                      
+
+                    </div>
+
+                    <div class="g-text-center--xs">
+
+                        <button id="login" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--20 g-padding-x-100--xs g-margin-b-20--xs">Login</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br>
+
+        </div>
+
+        <footer class="g-bg-color--dark">
+
+            <!-- Links -->
+
+            <div class="g-hor-divider__dashed--white-opacity-lightest">
+
+                <div class="container g-padding-y-80--xs">
+
+                    <div class="row">
+
+                        <div class="col-sm-4 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
+
+                            <h3 class="g-font-size-18--xs g-color--white">Into English</h3>
+
+                            <p class="g-color--white-opacity">Somos una empresa con experiencia en la enseñanza del idioma inglés, novedosa con estrategias dinámicas y versátiles, que usa las tecnologías actuales.</p>
+
+                    
+
+                            <a href="index.html">
+
+                                <img class="g-width-100--xs g-height-auto--xs" src="img/logointo.png" alt="Into English">
+
+                            </a>
+
+                    
+
+                        </div>
+
+                        <div class="col-sm-1"></div>
+
+                        
+
+                        <div class="col-sm-4 g-margin-b-40--xs g-margin-b-0--md">
+
+                            <h3 class="g-font-size-18--xs g-color--white">Contactanos</h3>
+
+                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://wa.me/5215517527011" target="_blank"><i class="fab fa-whatsapp"></i> 55 1752 7011</a></li>
+
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href=""><i class="fas fa-phone-volume"></i> 55 4317 8831</a></li>
+
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="mailto:informes@intoenglish.com.mx"><i class="fas fa-envelope"></i> informes@intoenglish.com.mx</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+
+                            <h3 class="g-font-size-18--xs g-color--white">Siguenos</h3>
+
+                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.facebook.com/IntoEnglish.com.mx" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+
+                                  <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.instagram.com/intoenglish.com.mx/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.youtube.com/channel/UCHhHS93Cre8jk8vGxtHGdOw" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End Links -->
+
+
+
+            <!-- Copyright -->
+
+            <div class="container g-padding-y-50--xs">
+
+                <div class="row">
+
+                    <div class="col-xs-6">
+
+                       
+
+                    </div>
+
+                    <div class="col-xs-6 g-text-right--xs">
+
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">By <a href="https://www.codegraphs.com.mx/" target="_blank">Code Graphs</a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End Copyright -->
+
+        </footer>
+
+        <!--========== END FOOTER ==========-->
+
+
+
+        <!-- Back To Top -->
+
+        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+
+
+        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+
+        <!-- Vendor -->
+
+
+
+        <script type="text/javascript" src="vendor/jquery.min.js"></script>
+
+        <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+
+        <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+
+        <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+
+        <script type="text/javascript" src="vendor/vidbg.min.js"></script>
+
+        <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
+
+        <script type="text/javascript" src="vendor/masonry/jquery.masonry.pkgd.min.js"></script>
+
+        <script type="text/javascript" src="vendor/masonry/imagesloaded.pkgd.min.js"></script>
+
+        <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+
+        <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+
+
+
+
+
+        <!-- General Components and Settings -->
+
+        <script type="text/javascript" src="js/global.min.js"></script>
+
+        <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
+
+        <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+
+        <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
+
+        <script type="text/javascript" src="js/components/swiper.min.js"></script>
+
+        <script type="text/javascript" src="js/components/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/components/parallax.min.js"></script>
+
+        <script type="text/javascript" src="js/components/google-map2.min.js"></script>
+
+        <script type="text/javascript" src="js/components/wow.min.js"></script>
+
+
+
+        <!--========== END JAVASCRIPTS ==========-->
+
+
+
+    </body>
+
+    <!-- End Body -->
+
+</html>
+

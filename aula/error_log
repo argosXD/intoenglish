@@ -1,0 +1,140 @@
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_ed0dac3a8b92fb928e03852e96357ddf, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[07-Feb-2022 11:42:59 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_a6eb6189cca3c224aebdfab83910eac3, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[15-Feb-2022 23:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_20839444761f5abc70d984568752ce43, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[22-Feb-2022 11:34:24 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_6d9d19ffdb9f3b8ec323e695e7dd5d0d, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[03-Mar-2022 10:44:12 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_f2e91f20a1a219055b845bf077a09f3c, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[03-Mar-2022 20:29:48 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_81be430ff17a8c8cb3e80bba3cb774e2, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[08-Mar-2022 15:31:45 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea3/sess_e26a2210fa4d9d2ef6787ef377ef0359, O_RDWR) failed: No such file or directory (2) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea3) in /home/intoeng1/public_html/aula/virtual.php on line 6
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/aula/virtual.php on line 172
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 190
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 197
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 213
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 216
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 230
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 253
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 288
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_tipo_usuario in /home/intoeng1/public_html/aula/virtual.php on line 350
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_ruta_foto in /home/intoeng1/public_html/aula/virtual.php on line 425
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 426
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: usuario_nombre in /home/intoeng1/public_html/aula/virtual.php on line 464
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: id_usuario in /home/intoeng1/public_html/usuarios/perfil.php on line 7
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 27
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1009
+[12-Mar-2022 13:13:26 America/Mexico_City] PHP Notice:  Undefined index: tipo_usuaro in /home/intoeng1/public_html/usuarios/perfil.php on line 1427
