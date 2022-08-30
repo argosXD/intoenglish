@@ -1,0 +1,5 @@
+-----> Levantar la imagen
+docker build -f pipelines/Dockerfile -t intoenglish-php:latest .
+
+-----> Levantar contenedor
+docker run -p 8081:8081 intoenglish-php

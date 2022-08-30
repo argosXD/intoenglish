@@ -10,7 +10,7 @@ date_default_timezone_set('America/Mexico_City');
 
   //dominio,usuario,contraseña,base de datos
   
-  $link = mysqli_connect(("localhost"),("intoeng1_develop"),("Marban85."), ("intoeng1_base_de_datos"));
+  $link = mysqli_connect(("65.99.225.221"),("intoeng1_develop"),("Marban85."), ("intoeng1_base_de_datos"));
   mysqli_set_charset($link, 'utf8mb4');
  // mysqli_query("SET NAMES 'utf8'", $link);
   
